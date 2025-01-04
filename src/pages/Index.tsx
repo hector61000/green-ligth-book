@@ -45,7 +45,10 @@ const Index = () => {
 
   return (
     <div className="container mx-auto px-4 py-8 min-h-screen relative">
-      <h1 className="text-4xl font-bold mb-8 rtl text-white">الحكمة والنجاح</h1>
+      <h1 className="text-4xl font-bold mb-8 rtl">
+        <span className="text-[#A2C837]">جرين</span>
+        <span className="text-[#F97316]">لايت</span>
+      </h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-24">
         {books.map((book) => (
