@@ -29,7 +29,7 @@ export function BookCard({ id, title, price, image, description, onSelect }: Boo
 
   return (
     <>
-      <div className="bg-card rounded-lg shadow-lg p-4 flex flex-col h-full">
+      <div className="bg-card rounded-lg shadow-lg p-4 flex flex-col h-full border-2 border-[#F97316]">
         <div className="aspect-[3/4] w-full mb-4">
           <img 
             src={image} 

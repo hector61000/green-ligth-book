@@ -57,7 +57,7 @@ const Index = () => {
         ))}
       </div>
       
-      <div className="fixed bottom-20 left-4 bg-white rounded-lg shadow-lg p-4 rtl">
+      <div className="fixed bottom-20 left-4 bg-[#F97316] rounded-lg shadow-lg p-4 rtl text-white">
         <div className="flex flex-col items-start space-y-2">
           <p className="text-lg font-bold">الإجمالي: {total} جنيه</p>
           <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
@@ -72,7 +72,11 @@ const Index = () => {
       </div>
 
       <footer className="fixed bottom-0 left-0 right-0 bg-white p-4 text-center border-t">
-        <p className="text-sm text-gray-600 rtl">جميع الحقوق محفوظه لجرين لايت</p>
+        <p className="text-sm text-gray-600 rtl">
+          جميع الحقوق محفوظه ل
+          <span className="text-[#A2C837]">جرين</span>
+          <span className="text-[#F97316]">لايت</span>
+        </p>
       </footer>
     </div>
   );
