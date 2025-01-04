@@ -58,7 +58,7 @@ const books = [
     title: "كتاب 7",
     author: "المؤلف السابع",
     price: 170,
-    image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.56.59.jpeg",
+    image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.57.00 (1).jpeg",
     description: "وصف الكتاب السابع"
   },
   {
@@ -66,7 +66,7 @@ const books = [
     title: "كتاب 8",
     author: "المؤلف الثامن",
     price: 190,
-    image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.57.00 (1).jpeg",
+    image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.57.00 (2).jpeg",
     description: "وصف الكتاب الثامن"
   },
   {
@@ -100,6 +100,70 @@ const books = [
     price: 175,
     image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.57.03 (2).jpeg",
     description: "وصف الكتاب الثاني عشر"
+  },
+  {
+    id: 13,
+    title: "كتاب 13",
+    author: "المؤلف الثالث عشر",
+    price: 185,
+    image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.57.03 (3).jpeg",
+    description: "وصف الكتاب الثالث عشر"
+  },
+  {
+    id: 14,
+    title: "كتاب 14",
+    author: "المؤلف الرابع عشر",
+    price: 195,
+    image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.57.03 (4).jpeg",
+    description: "وصف الكتاب الرابع عشر"
+  },
+  {
+    id: 15,
+    title: "كتاب 15",
+    author: "المؤلف الخامس عشر",
+    price: 165,
+    image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.57.03 (5).jpeg",
+    description: "وصف الكتاب الخامس عشر"
+  },
+  {
+    id: 16,
+    title: "كتاب 16",
+    author: "المؤلف السادس عشر",
+    price: 175,
+    image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.57.03 (6).jpeg",
+    description: "وصف الكتاب السادس عشر"
+  },
+  {
+    id: 17,
+    title: "كتاب 17",
+    author: "المؤلف السابع عشر",
+    price: 185,
+    image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.57.03 (7).jpeg",
+    description: "وصف الكتاب السابع عشر"
+  },
+  {
+    id: 18,
+    title: "كتاب 18",
+    author: "المؤلف الثامن عشر",
+    price: 195,
+    image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.57.03 (8).jpeg",
+    description: "وصف الكتاب الثامن عشر"
+  },
+  {
+    id: 19,
+    title: "كتاب 19",
+    author: "المؤلف التاسع عشر",
+    price: 155,
+    image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.57.03.jpeg",
+    description: "وصف الكتاب التاسع عشر"
+  },
+  {
+    id: 20,
+    title: "كتاب 20",
+    author: "المؤلف العشرون",
+    price: 165,
+    image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.57.04 (1).jpeg",
+    description: "وصف الكتاب العشرون"
   }
 ];
 
