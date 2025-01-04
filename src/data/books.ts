@@ -1,31 +1,31 @@
 export const books = [
   {
     id: 1,
-    title: "كتاب الذكاء العاطفي",
+    title: "كتاب الأسبوع 168 ساعة",
     price: 150,
     image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.56.58 (1).jpeg",
-    description: "كتاب يساعدك على تطوير ذكائك العاطفي"
+    description: "كتاب يساعدك على إدارة وقتك بشكل أفضل"
   },
   {
     id: 2,
-    title: "كتاب قوة التفكير الإيجابي",
+    title: "علم التحكم النفسي الآلي",
     price: 120,
     image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.56.58.jpeg",
-    description: "كيف تطور تفكيرك الإيجابي"
+    description: "نسخة محدثة وموسعة"
   },
   {
     id: 3,
-    title: "كتاب قوة العقل الباطن",
+    title: "كيف تجعل الناس تحبك في 90 ثانية",
     price: 180,
     image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.56.59 (1).jpeg",
-    description: "اكتشف قوة عقلك الباطن"
+    description: "دليلك العملي للتواصل الفعال مع الآخرين"
   },
   {
     id: 4,
-    title: "كتاب قوة عقلك الباطن",
+    title: "فن الحياة البسيطة",
     price: 200,
     image: "/lovable-uploads/WhatsApp Image 2025-01-03 at 18.56.59 (2).jpeg",
-    description: "تعلم كيف تستخدم قوة عقلك الباطن"
+    description: "100 عادة يومية لحياة أكثر هدوءاً وسعادة"
   },
   {
     id: 5,
