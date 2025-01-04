@@ -15,9 +15,9 @@ const Index = () => {
 
   return (
     <div className="container mx-auto px-4 py-8 min-h-screen relative">
-      <h1 className="text-4xl font-bold mb-8 rtl">
-        <span className="text-[#224422]">جرين </span>
-        <span className="text-[#F97316]">لايت</span>
+      <h1 className="text-5xl font-extrabold mb-12 rtl text-center">
+        <span className="text-[#224422] drop-shadow-lg">جرين </span>
+        <span className="text-[#F97316] drop-shadow-lg">لايت</span>
       </h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-24">
