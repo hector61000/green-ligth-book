@@ -25,13 +25,14 @@ Total: ${total} EGP`;
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4 rtl">
+    <form onSubmit={handleSubmit} className="space-y-4 rtl bg-[#FDE1D3] p-6 rounded-lg">
       <div>
         <Input
           placeholder="الاسم"
           value={name}
           onChange={(e) => setName(e.target.value)}
           required
+          className="bg-white"
         />
       </div>
       <div>
@@ -41,6 +42,7 @@ Total: ${total} EGP`;
           onChange={(e) => setPhone(e.target.value)}
           required
           type="tel"
+          className="bg-white"
         />
       </div>
       <div>
@@ -50,11 +52,12 @@ Total: ${total} EGP`;
           onChange={(e) => setWhatsapp(e.target.value)}
           required
           type="tel"
+          className="bg-white"
         />
       </div>
       <div className="flex justify-end space-x-2">
-        <Button type="submit">إرسال</Button>
-        <Button variant="outline" onClick={onClose}>
+        <Button type="submit" className="bg-[#F97316] hover:bg-[#F97316]/90">إرسال</Button>
+        <Button variant="outline" onClick={onClose} className="bg-white">
           إلغاء
         </Button>
       </div>
