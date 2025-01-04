@@ -44,8 +44,10 @@ const Index = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <div className="container mx-auto px-4 py-8 min-h-screen relative">
+      <h1 className="text-4xl font-bold mb-8 rtl text-white">الحكمة والنجاح</h1>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-24">
         {books.map((book) => (
           <BookCard
             key={book.id}
@@ -55,8 +57,8 @@ const Index = () => {
         ))}
       </div>
       
-      <div className="fixed bottom-0 left-0 right-0 bg-white shadow-lg p-4">
-        <div className="container mx-auto flex justify-between items-center rtl">
+      <div className="fixed bottom-20 left-4 bg-white rounded-lg shadow-lg p-4 rtl">
+        <div className="flex flex-col items-start space-y-2">
           <p className="text-lg font-bold">الإجمالي: {total} جنيه</p>
           <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
             <DialogTrigger asChild>
@@ -68,6 +70,10 @@ const Index = () => {
           </Dialog>
         </div>
       </div>
+
+      <footer className="fixed bottom-0 left-0 right-0 bg-white p-4 text-center border-t">
+        <p className="text-sm text-gray-600 rtl">جميع الحقوق محفوظه لجرين لايت</p>
+      </footer>
     </div>
   );
 };
