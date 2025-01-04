@@ -12,13 +12,14 @@ import {
 interface BookProps {
   id: number;
   title: string;
+  author: string;
   price: number;
   image: string;
   description: string;
   onSelect: (id: number, price: number, selected: boolean) => void;
 }
 
-export function BookCard({ id, title, price, image, description, onSelect }: BookProps) {
+export function BookCard({ id, title, author, price, image, description, onSelect }: BookProps) {
   const [isChecked, setIsChecked] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
 
@@ -38,6 +39,7 @@ export function BookCard({ id, title, price, image, description, onSelect }: Boo
           />
         </div>
         <h3 className="text-xl font-bold mb-2 rtl">{title}</h3>
+        <p className="text-gray-600 mb-2 rtl">{author}</p>
         <p className="text-gray-600 mb-4 rtl">{price} جنيه</p>
         <div className="flex items-center justify-between mt-auto">
           <Button 
