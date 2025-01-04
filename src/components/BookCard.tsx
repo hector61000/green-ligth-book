@@ -38,7 +38,8 @@ export function BookCard({ id, title, author, price, image, description, onSelec
             className="w-full h-full object-contain rounded-md"
           />
         </div>
-        <h3 className="text-xl font-bold mb-4 rtl">{title}</h3>
+        <h3 className="text-xl font-bold mb-2 rtl">{title}</h3>
+        <p className="text-gray-600 mb-2 rtl">{author}</p>
         <p className="text-gray-600 mb-4 rtl">{price} جنيه</p>
         <div className="flex items-center justify-between mt-auto">
           <Button 
