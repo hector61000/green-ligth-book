@@ -34,16 +34,16 @@ export function BookCard({ id, title, price, image, description, onSelect }: Boo
           <img 
             src={image} 
             alt={title} 
-            className="w-full h-full object-contain rounded-md"
+            className="w-full h-full object-cover rounded-md"
           />
         </div>
-        <h3 className="text-xl font-bold mb-2 rtl">{title}</h3>
-        <p className="text-gray-600 mb-4 rtl">{price} جنيه</p>
+        <h3 className="text-xl font-bold mb-2 rtl text-white">{title}</h3>
+        <p className="text-gray-200 mb-4 rtl">{price} جنيه</p>
         <div className="flex items-center justify-between mt-auto">
           <Button 
             variant="outline" 
             onClick={() => setShowDetails(true)} 
-            className="rtl"
+            className="rtl text-white hover:text-white"
           >
             عرض التفاصيل
           </Button>
